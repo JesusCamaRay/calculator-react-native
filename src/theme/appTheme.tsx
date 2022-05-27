@@ -3,7 +3,13 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
     safeAreaView:{
       flex:1,
-      backgroundColor:'#f5efff',
+      backgroundColor:'#BBD0FF',
+    },
+    title:{
+      textAlign: 'center',
+      marginTop: 30,
+      fontSize:50,
+      color:'#333335',
     },
     calculatorContainer:{
       justifyContent:'flex-end',
