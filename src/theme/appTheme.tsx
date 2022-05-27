@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
     safeAreaView:{
       flex:1,
-      backgroundColor:'#F1FAEE',
+      backgroundColor:'#CBF3F0',
     },
     title:{
       textAlign: 'center',

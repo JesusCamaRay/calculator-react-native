@@ -4,12 +4,12 @@ import { styles } from '../theme/appTheme'
 
 interface IProps {
   text: string
-  color?: '#A8DADC' | '#E63946' | '#457B9D'
+  color?: '#FF9F1C' | '#FFBF69' | '#2EC4B6'
   doubleWidth?: boolean
   action: (numberText: string) => void
 }
 
-export const ButtonCalculator = ({text,color='#A8DADC', doubleWidth=false,action}:IProps) => {
+export const ButtonCalculator = ({text,color='#2EC4B6', doubleWidth=false,action}:IProps) => {
 
 
   return (
@@ -22,7 +22,7 @@ export const ButtonCalculator = ({text,color='#A8DADC', doubleWidth=false,action
         doubleWidth ? {width: 180} : {}
         ]}>
         <Text style={[styles.buttonText,{
-          color: (color === '#E63946' || color === '#457B9D') ? 'white' : '#333335'
+          color: (color === '#FF9F1C' || color === '#2EC4B6') ? 'white' : '#333335'
         }]}>{text}</Text>
       </View>
     </TouchableOpacity>
