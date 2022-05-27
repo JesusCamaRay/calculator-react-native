@@ -31,37 +31,34 @@ export const CalculatorScreen = () => {
       >{number}</Text>
 
       <View style={styles.row}>
-        <ButtonCalculator text='C' color='#9B9B9B' action={clean}/>
-        <ButtonCalculator text='+/-' color='#9B9B9B' action={toggleSign} />
-        <ButtonCalculator text='del' color='#9B9B9B' action={removeLastChar}/>
-        <ButtonCalculator text='/' color='#FF9427' action={divideNumbers}/>
+        <ButtonCalculator text='C' color='#e5d9f2' action={clean}/>
+        <ButtonCalculator text='+/-' color='#e5d9f2' action={toggleSign} />
+        <ButtonCalculator text='del' color='#e5d9f2' action={removeLastChar}/>
+        <ButtonCalculator text='/' color='#7371FC' action={divideNumbers}/>
       </View>
       <View style={styles.row}>
         <ButtonCalculator text='7' action={buildNumber}/>
         <ButtonCalculator text='8' action={buildNumber} />
         <ButtonCalculator text='9' action={buildNumber}/>
-        <ButtonCalculator text='x' color='#FF9427' action={multiplyNumbers}/>
+        <ButtonCalculator text='x' color='#7371FC' action={multiplyNumbers}/>
       </View>
       <View style={styles.row}>
         <ButtonCalculator text='4' action={buildNumber}/>
         <ButtonCalculator text='5' action={buildNumber}/>
         <ButtonCalculator text='6' action={buildNumber}/>
-        <ButtonCalculator text='-' color='#FF9427' action={substractNumbers}/>
+        <ButtonCalculator text='-' color='#7371FC' action={substractNumbers}/>
       </View>
       <View style={styles.row}>
         <ButtonCalculator text='1' action={buildNumber}/>
         <ButtonCalculator text='2' action={buildNumber}/>
         <ButtonCalculator text='3' action={buildNumber}/>
-        <ButtonCalculator text='+' color='#FF9427' action={addNumbers}/>
+        <ButtonCalculator text='+' color='#7371FC' action={addNumbers}/>
       </View>
       <View style={styles.row}>
         <ButtonCalculator text='0' doubleWidth action={buildNumber}/>
         <ButtonCalculator text='.' action={buildNumber}/>
-        <ButtonCalculator text='=' color='#FF9427' action={calculate}/>
+        <ButtonCalculator text='=' color='#7371FC' action={calculate}/>
       </View>
     </View>
   )
 }
-
-// #2D2D2D
-// #FF9427

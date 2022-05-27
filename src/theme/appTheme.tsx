@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
     safeAreaView:{
       flex:1,
-      backgroundColor:'black',
+      backgroundColor:'#f5efff',
     },
     calculatorContainer:{
       justifyContent:'flex-end',
@@ -11,13 +11,13 @@ export const styles = StyleSheet.create({
       flex:1,
     },
     result:{
-      color:'white',
+      color:'#2d2d34',
       fontSize:60,
       textAlign:'right',
       marginBottom:10
     },
     littleResult:{
-      color:'rgba(255,255,255,0.5)',
+      color:'#333335',
       fontSize:30,
       textAlign:'right',
     },
@@ -40,7 +40,6 @@ export const styles = StyleSheet.create({
       textAlign:'center',
       padding:10,
       fontSize: 30,
-      color:'white',
-      fontWeight: '300',
+      fontWeight: '400',
     }
 });
